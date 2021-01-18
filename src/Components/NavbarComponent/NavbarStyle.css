@@ -1,0 +1,23 @@
+.logo {
+    position: fixed;
+    left: 60px;
+    width: 100px;
+    object-fit: contain;
+    /* padding: 20px 0;
+    position: fixed;
+    left: 0;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 60px; */
+}
+
+.avatar {
+    position: fixed;
+    right: 60px;
+    width: 30px;
+    object-fit: contain;
+    /* padding: 20px 0;
+    position: fixed;
+    right: 60px;
+    width: 30px; */
+}

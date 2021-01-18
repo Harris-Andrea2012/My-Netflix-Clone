@@ -1,0 +1,55 @@
+h2 {
+    font-size: max(1.2rem, 1.4vw);
+}
+
+.row {
+    margin-left: 60px;
+}
+
+.poster {
+    width: 250px;
+    padding: 20px 8px 20px 0;
+    border-radius: 2%;
+    object-fit: contain;
+    transition: transform .5s;
+}
+
+.originals-title {
+    position: relative;
+    z-index: 2;
+}
+
+.originals-row {
+    position: relative;
+    top: -40px;
+}
+
+.poster.netflix-original {
+    padding: 55px 8px 50px 0;
+    transition: transform 1s;
+}
+
+.poster:hover {
+    transform: scale(1.3, 1.3);
+    z-index: 3;
+}
+
+.poster-row {
+    display: flex;
+    padding-bottom: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.poster-row::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .poster {
+        width: 160px;
+    }
+    .row {
+        margin-left: 20px;
+    }
+}
